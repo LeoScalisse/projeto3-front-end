@@ -9,7 +9,7 @@
 }
 
 *{
-    marign:0;
+    margin:0;
     padding:0;
     box-sizing:border-box;
 }
@@ -20,7 +20,7 @@ body{
 header{
     display:flex;
     justify-content:space-between;
-    align-itens:center;
+    align-items:center;
     background: rgba(0,0,0,0.8);
     padding:20px 5%;
 }
@@ -63,7 +63,7 @@ nav ul li a:hover{
     background:var(--bg-card);
     border-radius:10px;
     overflow:hidden;
-    transition:transform 0.3 ease;
+    transition:transform 0.3s ease;
     border:1px solid var(--text-color)
 }
 .produto-card:hover{
@@ -71,7 +71,7 @@ nav ul li a:hover{
     border-color:yellow;
 }
 .produto-card img{
-    widht:100%;
+    width:100%;
     height: auto;
 }
 .card-content{
@@ -80,21 +80,21 @@ nav ul li a:hover{
     color:var(--bg-dark);
     font-weight:700;
 }
-.preco{
+.preço{
     font-size:1.2rem;
     color:red;
-    font-weight:700px;
+    font-weight:700;
     margin:10px 0;
 }
 .btn-comprar{
-    background:var(purple);
+    background: purple;
     color:var(--text-color);
-    border:nome;
+    border: none;
     padding: 10px 20px;
     border-radius:10px;
-    cursor:zoom-in;
-    widht:70%;
-    mar
+    cursor: pointer;
+    width:70%;
+    margin: 10px auto;
 }
 .btn-comprar:hover{
     background:var(--btn-color);
