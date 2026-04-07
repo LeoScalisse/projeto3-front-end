@@ -1,0 +1,51 @@
+/* VARIAVEIS GLOBAIS */
+
+:root{
+    --color-primary: #722ed1;
+    --bg-dark: #141414;
+    --bg-card: #1ff1f1;
+    --text-color: #fff;
+    --btn-color: #00ff88;
+}
+
+*{
+    marign:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:var(--bg-dark);
+    color:var(--text-color);
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-itens:center;
+    background: rgba(0,0,0,0.8);
+    padding:20px 5%;
+}
+
+.logo{
+    font-size:1.5rem;
+    font-weight:600;
+
+}
+.logo span{
+    color:var(--btn-color);
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+nav ul li{
+    padding: 0 15px;
+}
+nav ul li a{
+    color:var(--text-color);
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:var(--btn-color);
+}
